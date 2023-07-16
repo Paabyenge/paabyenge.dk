@@ -15,7 +15,7 @@ module.exports = function(eleventyConfig) {
 
   var pathPrefix = "";
   if (process.env.ELEVENTY_PRODUCTION) {
-    pathPrefix = "paabyenge.dk"; // process.env.GITHUB_REPOSITORY.split('/')[1];
+    pathPrefix = "/paabyenge.dk"; // process.env.GITHUB_REPOSITORY.split('/')[1];
   }
 
   return {

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<main class="container mx-auto flex flex-col flex-wrap items-center px-6 pt-24">
+  <header class="flex w-full flex-col justify-center overflow-y-hidden lg:items-start xl:w-2/5">
+    <img class="my-5" src="{{ '/paabyenge_logo.png' | url }}" alt="{{ metadata.title }}" />
+    <p class="mb-6 text-center text-base leading-normal md:text-left md:text-2xl">
+      {{ metadata.description }}
+    </p>
+  </header>
+
+  <div class="inline-flex gap-6">
+    <a href="https://www.facebook.com/profile.php?id=100092555303538" target="_blank">
+      <img src="{{ '/facebook_64px.png' | url }}" alt="Facebook icon" />
+    </a>
+
+    <a href="https://www.instagram.com/paabyengeplantefarvning/" target="_blank">
+      <img src="{{ '/instagram_64px.png' | url }}" alt="Instagram icon" />
+    </a>
+
+    <a href="mailto:paabyenge@gmail.com">
+      <img src="{{ '/email_64px.png' | url }}" alt="Email icon" />
+    </a>
+  </div>
+</main>
